@@ -1,0 +1,26 @@
+{
+  "name": "intl_parser",
+  "version": "1.0.0",
+  "description": "ExtJS application.js internationalization parser",
+  "main": "src/cli.js",
+  "scripts": {
+    "intl": "node src/cli.js",
+    "test": "node test/parser.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facilestore/intl_parser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/facilestore/intl_parser/issues"
+  },
+  "homepage": "https://github.com/facilestore/intl_parser#readme",
+  "dependencies": {
+    "acorn": "^8.16.0",
+    "escodegen": "^2.1.0",
+    "estraverse": "^5.3.0"
+  }
+}
